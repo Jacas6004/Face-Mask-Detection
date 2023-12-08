@@ -1,0 +1,51 @@
++------------------------+
+|        Start           |
++------------------------+
+             |
+             v
++------------------------+
+|   Preprocess Data      |
++------------------------+
+             |
+             v
++------------------------+
+|  Split into Train and  |
+|        Test Sets       |
++------------------------+
+             |
+             v
++------------------------+
+| Feature Scaling/       |
+| Normalization          |
++------------------------+
+             |
+             v
++------------------------+
+| Train SVM Model        |
+|                        |
+| - Choose Kernel        |
+| - Set Hyperparameters  |
+| - Train the Model      |
++------------------------+
+             |
+             v
++------------------------+
+| Evaluate Model         |
+|                        |
+| - Test on Test Set     |
+| - Calculate Metrics    |
++------------------------+
+             |
+             v
++------------------------+
+|   Fine-tune Model      |
+|   (if necessary)       |
+|                        |
+| -Adjust Hyperparameters|
+| - Cross-Validation     |
++------------------------+
+             |
+             v
++------------------------+
+|      End               |
++------------------------+
